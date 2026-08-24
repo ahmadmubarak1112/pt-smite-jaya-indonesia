@@ -380,7 +380,7 @@ body.active {
 
 /***** HERO *****/
 .hero {
-    background: linear-gradient( to top right, rgba(0, 52, 120, 0.8) 25%, rgba(65, 124, 202, 0) 65%), url(img/hero.webp);
+    background: linear-gradient( to top right, rgba(0, 52, 120, 0.8) 25%, rgba(65, 124, 202, 0) 65%), url(assets/img/hero.webp);
     height: 100dvh;
     background-repeat: no-repeat;
     background-size: cover;

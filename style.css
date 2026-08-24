@@ -257,7 +257,7 @@ body.active {
 }
 
 .navbar ul li:first-child {
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 .navbar ul li:last-child a {
@@ -286,7 +286,7 @@ body.active {
 }
 
 .navbar ul li a {
-    font-size: clamp(1rem, 1.6vw, 1.1rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.02rem);
     text-decoration: none;
     color: #fff;
     position: relative;
@@ -323,13 +323,13 @@ body.active {
 }
 
 .nav-logo {
-    width: min(260px, 82%);
+    width: min(220px, 82%);
 }
 
 /***** HAMBURGER MENU *****/
 .hamburger-menu {
     position: relative;
-    height: min(25px, 35%);
+    height: min(20px, 30%);
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -349,7 +349,7 @@ body.active {
     position: absolute;
     z-index: 2;
     width: 30px;
-    height: 30px;
+    height: 23px;
     top: -3px;
     cursor: pointer;
 }
@@ -367,7 +367,7 @@ body.active {
 }
 
 .hamburger-menu span:last-child.active {
-    transform: rotate(-45deg) translate(-3.5px, -1px);
+    transform: rotate(-45deg) translate(-5px, 1.5px);
 }
 
 .hamburger-menu span:nth-child(3) {
@@ -406,19 +406,19 @@ body.active {
 }
 
 .hero-content .company-name {
-    font-size: clamp(2.3rem, 2.8vw, 2.7rem);
+    font-size: clamp(2.07rem, 2.6vw, 2.47rem);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content .description {
-    font-size: clamp(1.05rem, 1.6vw, 1.15rem);
+    font-size: clamp(1rem, 1.6vw, 1.1rem);
     margin-bottom: 15px;
 }
 
 .hero-content .hero-btn {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 13px;
 }
 
 .hero-content .see-product {
@@ -430,9 +430,9 @@ body.active {
     text-decoration: none;
     background-color: #0764b5;
     border-radius: 10px;
-    width: min(200px, 65%);
+    width: min(180px, 62%);
     text-align: center;
-    padding: 0.8em 0;
+    padding: 0.75em 0;
     transition: var(--basic-transition);
     font-size: clamp(0.95rem, 1.7vw, 1.03rem);
 }
@@ -451,9 +451,9 @@ body.active {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 10px;
-    width: min(200px, 65%);
+    width: min(180px, 63%);
     text-align: center;
-    padding: 0.8em 0;
+    padding: 0.75em 0;
     transition: var(--basic-transition);
     font-size: clamp(0.95rem, 1.7vw, 1.03rem);
 }
@@ -488,12 +488,8 @@ body.active {
 }
 
 .card-item .card-icon {
-    font-size: clamp(3.2rem, 3vw, 3.2rem);
+    font-size: clamp(3rem, 3vw, 3.2rem);
     color: #0865b8;
-}
-
-.card-item h3 {
-    font-size: clamp(1.35rem, 1.2vw, 1.5rem);
 }
 
 .card-item .card-content {
@@ -502,9 +498,13 @@ body.active {
     gap: 7px;
 }
 
-.card-item .card-content p {
+.card-content h3 {
+    font-size: clamp(1.3rem, 1.3vw, 1.45rem);
+}
+
+.card-content p {
     color: #454545;
-    font-size: clamp(0.97rem, 1.3vw, 1.03rem);
+    font-size: clamp(0.95rem, 1.3vw, 1rem);
 }
 
 .card .card-item:last-child {
@@ -561,6 +561,7 @@ body.active {
 
 .about .desc {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
+    line-height: 1.4em;
     color: #7a7a7a;
     margin: 7px 0 20px;    
     grid-area: description;
@@ -622,8 +623,8 @@ body.active {
 
 .about-content .company-profil {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
-    line-height: 1.3em;
-    text-align: justify;
+    line-height: 1.42em;
+    text-align: left;
 }
 
 .about-content .company-profil span {
@@ -638,8 +639,8 @@ body.active {
 
 .company-history .item p {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
-    line-height: 1.3em;
-    text-align: justify;
+    line-height: 1.42em;
+    text-align: left;
 }
 
 .company-history .item .icon-item {
@@ -730,8 +731,8 @@ body.active {
 }
 
 .timeline-item p {
-    font-size: clamp(0.97rem, 1.3vw, 1.03rem);
-    line-height: 1.3;
+    font-size: clamp(0.95rem, 1.3vw, 1.01rem);
+    line-height: 1.4em;
     color: #666;
 }
 
@@ -765,7 +766,7 @@ body.active {
 
 .card-company .cc-item h3 {
     color: #0865b8;
-    font-size: clamp(1.5rem, 1.4vw, 1.6rem);
+    font-size: clamp(1.4rem, 1.4vw, 1.5rem);
 }
 
 .card-company .cc-item small {
@@ -781,6 +782,7 @@ body.active {
 .cc-item .cc-content p {
     margin-top: 10px;
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
+    line-height: 1.4em;
 }
 
 /***** SECTION PRODUCT *****/
@@ -818,6 +820,7 @@ body.active {
 .product .desc {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
     color: #7a7a7a;
+    line-height: 1.4em;
     margin: 7px 0 20px;    
     text-align: center;
 }
@@ -960,7 +963,7 @@ body.active {
 .product-item-content .product-caption {
     padding: 0.5em 0;
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
-    line-height: 1.35em;
+    line-height: 1.4em;
 }
 
 .product-item-content .link-product {
@@ -1011,7 +1014,7 @@ body.active {
 .other-product p {
     color: #666;
     text-align: center;
-    font-size: clamp(0.95rem, 1.2vw, 1.02rem);
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
     line-height: 1.3em;
 }
 
@@ -1056,6 +1059,7 @@ body.active {
 .marketplace .desc {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
     color: #7a7a7a;
+    line-height: 1.4em;
     margin: 7px 0 20px;    
     text-align: center;
 }
@@ -1076,7 +1080,7 @@ body.active {
 
 .mp-content img {
     max-width: 82vw;
-    margin: 0 0 0 -7px;
+    margin: 0 auto;
 }
 
 .mp-main .row-1 {
@@ -1109,6 +1113,7 @@ body.active {
 
 .row-1 .mp-caption p {
     color: #7a7a7a;
+    line-height: 1.4em;
     font-size: clamp(0.95rem, 1.08vw, 1.03rem);
 }
 
@@ -1235,6 +1240,7 @@ body.active {
 .gallery .desc {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
     color: #7a7a7a;
+    line-height: 1.4em;
     margin: 7px 0 20px;    
     text-align: center;
 }
@@ -1261,7 +1267,7 @@ body.active {
     position: absolute;
     inset: 0;
     border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.37);
     opacity: 0;
     transition: var(--basic-transition);
 }
@@ -1271,14 +1277,15 @@ body.active {
     position: absolute;
     bottom: 10px;
     left: 5px;
-    font-size: clamp(0.8rem, 1.32vw, 0.87rem);
+    font-size: clamp(0.83rem, 1.32vw, 0.9rem);
     transform: translateY(5px);
     transition: var(--basic-transition);
 }
 
 .gallery-wrapper-item-overlay .ico-box-zoom {
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1em;
+    border: 0.7px solid rgba(255, 255, 255, 0.3);
     border-radius: 7px;
     top: 7px;
     right: 7px;
@@ -1398,6 +1405,7 @@ body.active {
 .contact .desc {
     font-size: clamp(0.97rem, 1.3vw, 1.03rem);
     color: #7a7a7a;
+    line-height: 1.4em;
     margin: 7px 0 20px;    
     text-align: center;
 }
@@ -1628,7 +1636,7 @@ body.active {
 }
 
 .footer-content .f-col-1 img {
-    width: min(270px, 95%);
+    width: min(260px, 93%);
 }
 
 .footer-content .f-col-2,
@@ -1688,8 +1696,13 @@ body.active {
 
 .ctc-info a {
     color: rgba(255, 255, 255, 0.7);
+    font-size: clamp(0.95rem, 1.3vw, 1rem);
     text-decoration: underline;
     transition: var(--basic-transition);
+}
+
+.ctc-info p {
+    font-size: clamp(0.95rem, 1.3vw, 1rem);
 }
 
 .ctc-info a:hover {
@@ -1709,6 +1722,10 @@ body.active {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.company-operational .detail small {
+    font-size: clamp(0.95rem, 1.3vw, 1rem);
+}
+
 .footer .cr {
     border-top: 1px solid rgba(193, 193, 193, 0.22);
     color: rgba(255, 255, 255, 0.7);
@@ -1717,6 +1734,10 @@ body.active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cr small {
+    font-size: clamp(0.8rem, 1.3vw, 0.9rem);
 }
 
 .footer-content .ico-box-2 {

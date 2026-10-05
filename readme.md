@@ -3,7 +3,7 @@
 Developed and deployed a modern, responsive agricultural corporate website designed to establish and strengthen PT Smite Jaya Indonesia's digital presence and agribusiness operations.
 
 ## Preview
-![Project Preview](./assets/img/screenshoot-web.png)
+![Project Preview](./assets/img/screenshoot-web.webp)
 
 ## Features
 
